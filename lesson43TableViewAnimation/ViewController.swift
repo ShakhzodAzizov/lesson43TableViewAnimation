@@ -56,7 +56,7 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource{
 //
 //        }, completion: nil)
         
-        UIView.animate(withDuration: 0.5) {
+        UIView.animate(withDuration: 0.9) {
             redView.transform = CGAffineTransform(translationX: -50, y: 0)
         }
         
