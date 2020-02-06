@@ -13,6 +13,7 @@
 		873700B523EC518E00CAFB4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873700B323EC518E00CAFB4A /* Main.storyboard */; };
 		873700B723EC519200CAFB4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 873700B623EC519200CAFB4A /* Assets.xcassets */; };
 		873700BA23EC519200CAFB4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873700B823EC519200CAFB4A /* LaunchScreen.storyboard */; };
+		873700C223EC531200CAFB4A /* TVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873700C123EC531200CAFB4A /* TVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		873700B623EC519200CAFB4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		873700B923EC519200CAFB4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873700BB23EC519200CAFB4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		873700C123EC531200CAFB4A /* TVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				873700B623EC519200CAFB4A /* Assets.xcassets */,
 				873700B823EC519200CAFB4A /* LaunchScreen.storyboard */,
 				873700BB23EC519200CAFB4A /* Info.plist */,
+				873700C123EC531200CAFB4A /* TVC.swift */,
 			);
 			path = lesson43TableViewAnimation;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				873700B223EC518E00CAFB4A /* ViewController.swift in Sources */,
+				873700C223EC531200CAFB4A /* TVC.swift in Sources */,
 				873700AE23EC518E00CAFB4A /* AppDelegate.swift in Sources */,
 				873700B023EC518E00CAFB4A /* SceneDelegate.swift in Sources */,
 			);
