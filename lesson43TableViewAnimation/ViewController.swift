@@ -47,14 +47,18 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource{
     func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
         cell.transform = CGAffineTransform(scaleX: 0.9, y: 0.9)
         
-        UIView.animate(withDuration: 0.5, delay: 0.1, usingSpringWithDamping: 0.5, initialSpringVelocity: 0.5, options: .transitionFlipFromTop, animations: {
-            cell.transform = .identity
-        }, completion: nil)
-        
+//        UIView.animate(withDuration: 0.5, delay: 0.1, usingSpringWithDamping: 0.5, initialSpringVelocity: 0.5, options: .transitionFlipFromTop, animations: {
+//            cell.transform = .identity
+//        }, completion: nil)
+//
         let redView = cell.viewWithTag(3)!
-        UIView.transition(with: redView, duration: 0.3, options: .transitionFlipFromBottom, animations: {
-            
-        }, completion: nil)
+//        UIView.transition(with: redView, duration: 0.3, options: .transitionFlipFromBottom, animations: {
+//
+//        }, completion: nil)
+        
+        UIView.animate(withDuration: 0.5) {
+            redView.transform = CGAffineTransform(translationX: -50, y: 0)
+        }
         
     }
 }
