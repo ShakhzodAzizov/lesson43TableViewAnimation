@@ -61,4 +61,9 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource{
         }
         
     }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let cell = tableView.cellForRow(at: indexPath)
+        cell?.viewWithTag(3)!.backgroundColor = .green
+    }
 }
